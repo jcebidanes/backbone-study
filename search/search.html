@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Search</title>
+    <body>
+
+        <script type="text/template" id="formulario-template">
+            <label>Search</label>
+            <input type="text" id="txtTermo" />
+            <input type="button" id="btnBuscar" value="Buscar" />
+        </script>
+        
+        <!-- Container onde o template será renderizado -->
+        <div id="formulario-container"></div>
+
+    </body>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/underscore/underscore.js"></script>
+    <script src="node_modules/backbone/backbone.js"></script>  
+    <script src="js/views/search-view.js"></script>
+    <script src="js/app.js"></script>
+</html>
